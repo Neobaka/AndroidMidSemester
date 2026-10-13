@@ -1,4 +1,4 @@
-package ru.urfu.footballdigest.presentation.details
+package io.github.dekabrsky.androidMidSemester.presentation.details
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -21,9 +21,9 @@ import androidx.compose.ui.graphics.painter.ColorPainter
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
-import ru.urfu.footballdigest.domain.model.Match
-import ru.urfu.footballdigest.domain.model.MatchStatus
-import ru.urfu.footballdigest.domain.model.Team
+import io.github.dekabrsky.androidMidSemester.domain.model.Match
+import io.github.dekabrsky.androidMidSemester.domain.model.MatchStatus
+import io.github.dekabrsky.androidMidSemester.domain.model.Team
 import java.time.format.DateTimeFormatter
 
 private val timeFormatter = DateTimeFormatter.ofPattern("HH:mm")
